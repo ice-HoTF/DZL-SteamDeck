@@ -73,12 +73,12 @@ Remove Favorite:
 ![remove_favorite](https://github.com/user-attachments/assets/30ff3c24-fd89-4919-a65e-d58349de3783)
 \
 \
-# Manually Copy .desktop-file and .png-files for the Application Shortcut:
+# Manually Copying .desktop-file and .png-files for the Application Shortcut:
 \
 (These actions are handled by 'install_DZL.sh)
 \
 \
-Here's how to Manually Move the Application Shortcut files: 
+Here's how to Manually Copy the Application Shortcut files: 
 \
 \
 Copy 'DZL.desktop' to /home/$USER/.local/share/applications/ in the Terminal:
