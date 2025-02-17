@@ -1,12 +1,12 @@
-# DZL - A Simple DayZ Mod Launcher for Linux
+# DZL - A Simple DayZ Mod Launcher for SteamDeck
 \
- **Beta released 16/02/2025**
+ **Beta released 17/02/2025**
 \
 \
 By: ice_hotf
 \
 \
-Tested with Debian 12.
+Tested with SteamDeck (Arch)
 \
 \
 \
@@ -29,20 +29,37 @@ This script supports modded servers and vanilla servers.
 \
 \
 \
-1: Extract 'DZL-Beta-Linux-main.zip' to your '/home/$USER' Directory.
+1: Extract 'DZL-Beta-SteamDeck-main.zip' and copy the 'DZL' Folder to your '/home/$USER' Directory.
 \
 \
-2: Install DZL by running 'install_DZL.sh' in the Terminal:
-sh /home/$USER/DZL-Beta-SteamDeck-main/DZL/install_DZL.sh
+2: Take ownership of the '/home/$USER/DZL' folder in the Terminal:
 \
 \
-3: Run DZL by Opening the Application Menu Shortcut 'DZL' or By Terminal Command: bash /home/$USER/DZL/DZL.sh
+   sudo chmod +x /home/$USER/DZL/./*
 \
 \
+3: Run DZL from Terminal:
 \
 \
-Video: How To Setup and Launch DZL:
-https://youtu.be/RQ1DCVzzKxw
+   bash /home/$USER/DZL/DZL.sh 
+\
+\
+4: Run DZL from Application Shortcut: 
+\
+\
+4-1: Copy 'DZL.desktop' to /home/$USER/.local/share/applications/ in the Terminal:
+\
+\
+   cp /home/$USER/DZL/DZL.desktop /home/$USER/.local/share/applications/DZL.desktop
+\
+\
+4-2: Copy the .png-icon to the '/usr/share/icons' folder in the Terminal:
+\
+\
+   sudo cp /home/$USER/DZL-Beta-main/DZL/dzl.png /usr/share/icons/
+\
+\
+4-3: Open the Application Shortcut from the Application Launcher/StartMenu/Dashboard.
 \
 \
 \
@@ -69,57 +86,3 @@ Remove Favorite:
 \
 \
 ![remove_favorite](https://github.com/user-attachments/assets/30ff3c24-fd89-4919-a65e-d58349de3783)
-\
-\
-Remove From Specific Server:
-\
-\
-![remode_mods_this_server](https://github.com/user-attachments/assets/46a232fd-ed2b-4123-9df6-413d5135fd88)
-\
-\
-Remove All Mods:
-\
-\
-![remove_all_mods](https://github.com/user-attachments/assets/54d2fa7f-20fa-495e-9d99-3ac86cbec6f2)
-\
-\
-\
-\
-![dzl](https://github.com/user-attachments/assets/24a04856-76ee-494d-a0a3-9f7116fb1f3e)
-\
-\
-Add DZL as a Application Entry and Open it as an Application: 
-\
-This is automatically done through the 'install_DZL.sh' script, but this is how yoo do it manually:
-\
-\
-1: Copy 'DZL.desktop' to /home/$USER/.local/share/applications/ and in the Terminal like this:
-cp /home/$USER/DZL-Beta-SteamDeck-main/DZL/DZL.desktop /home/$USER/.local/share/applications/DZL.desktop
-\
-\
-2: Copy the .png-icon to the '/usr/share/icons' folder in the Terminal like this:
-sudo cp /home/$USER/DZL-Beta-SteamDeck-main/DZL/dzl.png /usr/share/icons/
-\
-\
-\
-\
-FAQ:
-I can't join the server:
-- Restart Steam if you can't join the server and try again. 
-- On heavily modded servers, steam once in a while glitches right after downloading the mods and. A steam restart solves it.
-\
-\
-\
-\
-Dependencies:
-\
-\
-gawk
-\
-\
-curl
-\
-\
-jq
-\
-\
