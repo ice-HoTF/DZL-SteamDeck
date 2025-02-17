@@ -56,7 +56,7 @@ This script supports modded servers and vanilla servers.
 4-2: Copy the .png-icon to the '/usr/share/icons' folder in the Terminal:
 \
 \
-   sudo cp /home/$USER/DZL-Beta-main/DZL/dzl.png /usr/share/icons/
+   sudo cp /home/$USER/DZL/dzl.png /usr/share/icons/
 \
 \
 4-3: Open the Application Shortcut from the Application Launcher/StartMenu/Dashboard.
