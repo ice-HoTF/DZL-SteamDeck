@@ -29,13 +29,13 @@ This script supports modded servers and vanilla servers.
 \
 \
 \
-1: Extract 'DZL-Beta-SteamDeck-main.zip' and copy the 'DZL' Folder to your '/home/$USER' Directory.
+1: Extract 'DZL-Beta-SteamDeck-main.zip'.
 \
 \
-2: Take ownership of the '/home/$USER/DZL' folder in the Terminal:
+2: Install DZL by running 'install_DZL.sh' in the Terminal:
 \
 \
-   sudo chmod +x /home/$USER/DZL/./*
+   sh /home/$USER/DZL-Beta-SteamDeck-main/install_DZL.sh
 \
 \
 3: Run DZL from Terminal:
@@ -44,22 +44,7 @@ This script supports modded servers and vanilla servers.
    bash /home/$USER/DZL/DZL.sh 
 \
 \
-4: Run DZL from Application Shortcut: 
-\
-\
-4-1: Copy 'DZL.desktop' to /home/$USER/.local/share/applications/ in the Terminal:
-\
-\
-   cp /home/$USER/DZL/DZL.desktop /home/$USER/.local/share/applications/DZL.desktop
-\
-\
-4-2: Copy the .png-icon to the '/usr/share/icons' folder in the Terminal:
-\
-\
-   sudo cp /home/$USER/DZL/dzl.png /usr/share/icons/
-\
-\
-4-3: Open the Application Shortcut from the Application Launcher/StartMenu/Dashboard.
+4: Run DZL from Application Shortcut (Shortcuts/StartMenu/Launcher) 
 \
 \
 \
@@ -86,3 +71,26 @@ Remove Favorite:
 \
 \
 ![remove_favorite](https://github.com/user-attachments/assets/30ff3c24-fd89-4919-a65e-d58349de3783)
+\
+\
+# Manually moving .desktop-file and .png-files:
+\
+(These actions are handled by 'install_DZL.sh)
+\
+\
+Here's how to Manually Move the Application Shortcut files: 
+\
+\
+Copy 'DZL.desktop' to /home/$USER/.local/share/applications/ in the Terminal:
+\
+\
+cp /home/$USER/DZL/DZL.desktop /home/$USER/.local/share/applications/DZL.desktop
+\
+\
+Copy the .png-icon to the '/usr/share/icons' folder in the Terminal:
+\
+\
+sudo cp /home/$USER/DZL/dzl.png /usr/share/icons/
+\
+\
+Open the Application Shortcut from the Application Launcher/StartMenu/Dashboard.
