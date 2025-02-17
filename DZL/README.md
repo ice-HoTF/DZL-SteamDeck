@@ -70,7 +70,6 @@ Remove Favorite:
 \
 \
 # Manually Copying .desktop-file and .png-files for the Application Shortcut:
-\
 (These actions are handled by 'install_DZL.sh)
 \
 \
