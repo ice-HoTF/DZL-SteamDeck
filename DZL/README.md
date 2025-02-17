@@ -38,7 +38,7 @@ This script supports modded servers and vanilla servers.
    bash /home/$USER/DZL/DZL.sh 
 \
 \
-4: Run DZL from Application Shortcut (Shortcuts/StartMenu/Launcher) 
+4: Run DZL from the Application Shortcut and add it to Steam as a Non-Steam game.
 \
 \
 \
