@@ -75,19 +75,22 @@ Remove Favorite:
 \
 # Manually moving .desktop-file and .png-files:
 \
-This is handled by 'install_DZL.sh, but Here's how to Manually Move the Application Shortcut files: 
+This is handled by 'install_DZL.sh.
 \
 \
-4-1: Copy 'DZL.desktop' to /home/$USER/.local/share/applications/ in the Terminal:
+Here's how to Manually Move the Application Shortcut files: 
 \
 \
-   cp /home/$USER/DZL/DZL.desktop /home/$USER/.local/share/applications/DZL.desktop
+Copy 'DZL.desktop' to /home/$USER/.local/share/applications/ in the Terminal:
 \
 \
-4-2: Copy the .png-icon to the '/usr/share/icons' folder in the Terminal:
+cp /home/$USER/DZL/DZL.desktop /home/$USER/.local/share/applications/DZL.desktop
 \
 \
-   sudo cp /home/$USER/DZL/dzl.png /usr/share/icons/
+Copy the .png-icon to the '/usr/share/icons' folder in the Terminal:
 \
 \
-4-3: Open the Application Shortcut from the Application Launcher/StartMenu/Dashboard.
+sudo cp /home/$USER/DZL/dzl.png /usr/share/icons/
+\
+\
+Open the Application Shortcut from the Application Launcher/StartMenu/Dashboard.
