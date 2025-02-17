@@ -44,10 +44,10 @@ This script supports modded servers and vanilla servers.
    bash /home/$USER/DZL/DZL.sh 
 \
 \
-4: Run DZL from Applications (Shortcuts/StartMenu/Launcher) 
+4: Run DZL from Application Shortcut (Shortcuts/StartMenu/Launcher) 
 \
 \
-   This is handled by 'install_DZL.sh, but Here's how to Manually Move the Application Shortcut files:
+###   This is handled by 'install_DZL.sh, but Here's how to Manually Move the Application Shortcut files: ###
 \
 \
 4-1: Copy 'DZL.desktop' to /home/$USER/.local/share/applications/ in the Terminal:
