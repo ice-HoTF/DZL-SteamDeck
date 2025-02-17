@@ -47,24 +47,6 @@ This script supports modded servers and vanilla servers.
 4: Run DZL from Application Shortcut (Shortcuts/StartMenu/Launcher) 
 \
 \
-###   This is handled by 'install_DZL.sh, but Here's how to Manually Move the Application Shortcut files: ###
-\
-\
-4-1: Copy 'DZL.desktop' to /home/$USER/.local/share/applications/ in the Terminal:
-\
-\
-   cp /home/$USER/DZL/DZL.desktop /home/$USER/.local/share/applications/DZL.desktop
-\
-\
-4-2: Copy the .png-icon to the '/usr/share/icons' folder in the Terminal:
-\
-\
-   sudo cp /home/$USER/DZL/dzl.png /usr/share/icons/
-\
-\
-4-3: Open the Application Shortcut from the Application Launcher/StartMenu/Dashboard.
-\
-\
 \
 \
 Join Server:
@@ -89,3 +71,26 @@ Remove Favorite:
 \
 \
 ![remove_favorite](https://github.com/user-attachments/assets/30ff3c24-fd89-4919-a65e-d58349de3783)
+\
+\
+\
+\
+#Manually moving .desktop-file and .png-files:#
+\
+\
+This is handled by 'install_DZL.sh, but Here's how to Manually Move the Application Shortcut files: 
+\
+\
+4-1: Copy 'DZL.desktop' to /home/$USER/.local/share/applications/ in the Terminal:
+\
+\
+   cp /home/$USER/DZL/DZL.desktop /home/$USER/.local/share/applications/DZL.desktop
+\
+\
+4-2: Copy the .png-icon to the '/usr/share/icons' folder in the Terminal:
+\
+\
+   sudo cp /home/$USER/DZL/dzl.png /usr/share/icons/
+\
+\
+4-3: Open the Application Shortcut from the Application Launcher/StartMenu/Dashboard.
