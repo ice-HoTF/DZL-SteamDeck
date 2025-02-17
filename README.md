@@ -73,8 +73,6 @@ Remove Favorite:
 ![remove_favorite](https://github.com/user-attachments/assets/30ff3c24-fd89-4919-a65e-d58349de3783)
 \
 \
-\
-
 # Manually moving .desktop-file and .png-files:
 \
 This is handled by 'install_DZL.sh, but Here's how to Manually Move the Application Shortcut files: 
