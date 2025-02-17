@@ -69,6 +69,7 @@ Remove Favorite:
 ![remove_favorite](https://github.com/user-attachments/assets/30ff3c24-fd89-4919-a65e-d58349de3783)
 \
 \
+\
 # Manually Copying .desktop-file and .png-files for the Application Shortcut:
 (These actions are handled by 'install_DZL.sh)
 \
