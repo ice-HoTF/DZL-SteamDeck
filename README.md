@@ -12,8 +12,8 @@ Tested with SteamDeck (Arch)
 \
 \
 This script will wait for user input and automatically identify missing mods, download them and launch DayZ with the mods. 
-This script will also allow you to delete mods, save shortcut script or an alias in the terminal interface.
-Just follow the instructions in the terminal window
+This script will also allow you to delete mods and save Favorite Servers.
+Just follow the instructions in the terminal window and that's it.
 \
 \
 This script supports modded servers and vanilla servers.
