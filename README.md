@@ -86,7 +86,4 @@ Remove Favorite:
 \
 \
 ![remove_favorite](https://github.com/user-attachments/assets/30ff3c24-fd89-4919-a65e-d58349de3783)
-Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
-No file chosen
-Attach files by dragging & dropping, selecting or pasting them.
-Editing DZL-Beta-SteamDeck/README.md at main · ice-HoTF/DZL-Beta-SteamDeck 
+
