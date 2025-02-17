@@ -75,7 +75,7 @@ Remove Favorite:
 \
 # Manually moving .desktop-file and .png-files:
 \
-This is handled by 'install_DZL.sh.
+(These actions are handled by 'install_DZL.sh)
 \
 \
 Here's how to Manually Move the Application Shortcut files: 
