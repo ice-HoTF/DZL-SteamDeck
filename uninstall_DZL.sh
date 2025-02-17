@@ -1,5 +1,8 @@
 #!/bin/bash
 
+### SteamOS Read-Only Disable ###
+sudo steamos-readonly disable
+
 ### Uninstall DZL###
 
 sudo rm /home/$USER/.local/share/applications/DZL.desktop 
@@ -9,4 +12,7 @@ sudo rm -rf /home/$USER/DZL-Beta-SteamDeck-main/
 sudo rm /home/$USER/DZL-Beta-SteamDeck-main.zip
 cd ~
 exec bash
-echo "Uninstallation Successful"
+### SteamOS Read-Only Enable ###
+sudo steamos-readonly enable
+
+echo "Uninstallation Successful!"
