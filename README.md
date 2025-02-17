@@ -39,7 +39,7 @@ sudo chmod +x /home/$USER/DZL/./*
 3: Run DZL from Terminal: bash /home/$USER/DZL/DZL.sh  
 \
 \
-4: Run DZL Application Shortcut: 
+4: Run DZL from Application Shortcut: 
 \
 \
 1: Copy 'DZL.desktop' to /home/$USER/.local/share/applications/ in the Terminal:
