@@ -30,17 +30,15 @@ This script supports modded servers and vanilla servers.
 \
 2: Install DZL by running 'install_DZL.sh' in the Terminal:
 \
-\
    sh /home/$USER/DZL-Beta-SteamDeck-main/install_DZL.sh
 \
 \
 3: Run DZL from Terminal:
 \
-\
    bash /home/$USER/DZL/DZL.sh 
 \
 \
-4: Run DZL from Application Shortcut (Shortcuts/StartMenu/Launcher) 
+4: Run DZL from the Application Shortcut and add it to Steam as a Non-Steam game.
 \
 \
 \
@@ -69,8 +67,8 @@ Remove Favorite:
 ![remove_favorite](https://github.com/user-attachments/assets/30ff3c24-fd89-4919-a65e-d58349de3783)
 \
 \
-# Manually Copying .desktop-file and .png-files for the Application Shortcut:
 \
+# Manually Copying .desktop-file and .png-files for the Application Shortcut:
 (These actions are handled by 'install_DZL.sh)
 \
 \
