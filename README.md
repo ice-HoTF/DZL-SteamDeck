@@ -32,11 +32,11 @@ This script supports modded servers and vanilla servers.
 1: Extract 'DZL_Beta_main-SteamDeck.zip' and copy the 'DZL' Folder to your '/home/$USER' Directory.
 \
 \
-2: Take ownership of the '/home/$USER/DZL' folder in the Terminal like this:
+2: Take ownership of the '/home/$USER/DZL' folder in the Terminal:
 sudo chmod +x /home/$USER/DZL/./*
 \
 \
-3: Run DZL from Terminal: bash /home/$USER/DZL/DZL.sh  
+3: Run DZL from Terminal: bash /home/$USER/DZL/DZL.sh 
 \
 \
 4: Run DZL from Application Shortcut: 
