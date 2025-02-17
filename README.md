@@ -42,15 +42,17 @@ sudo chmod +x /home/$USER/DZL/./*
 4: Run DZL from Application Shortcut: 
 \
 \
-1: Copy 'DZL.desktop' to /home/$USER/.local/share/applications/ in the Terminal:
+4-1: Copy 'DZL.desktop' to /home/$USER/.local/share/applications/ in the Terminal:
 cp /home/$USER/DZL/DZL.desktop /home/$USER/.local/share/applications/DZL.desktop
 \
 \
-2: Copy the .png-icon to the '/usr/share/icons' folder in the Terminal:
+4-2: Copy the .png-icon to the '/usr/share/icons' folder in the Terminal:
 sudo cp /home/$USER/DZL-Beta-main/DZL/dzl.png /usr/share/icons/
 \
 \
-3: Open the Application Shortcut from the Application Launcher/StartMenu/Dashboard.
+4-3: Open the Application Shortcut from the Application Launcher/StartMenu/Dashboard.
+\
+\
 \
 \
 Join Server:
