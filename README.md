@@ -33,14 +33,24 @@ This script supports modded servers and vanilla servers.
 \
 \
 2: Take ownership of the '/home/$USER/DZL' folder in the Terminal like this:
-\
-\
 sudo chmod +x /home/$USER/DZL/./*
 \
 \
-3: Run DZL by Running this Command in the Terminal: bash /home/$USER/DZL/DZL.sh
+3: Run DZL by Running this Command in the Terminal: bash /home/$USER/DZL/DZL.sh or Use Application Shortcut 
 \
 \
+Add DZL as an Application Shortcut: 
+\
+\
+1: Copy 'DZL.desktop' to /home/$USER/.local/share/applications/ in the Terminal:
+cp /home/$USER/DZL/DZL.desktop /home/$USER/.local/share/applications/DZL.desktop
+\
+\
+2: Copy the .png-icon to the '/usr/share/icons' folder in the Terminal:
+sudo cp /home/$USER/DZL-Beta-main/DZL/dzl.png /usr/share/icons/
+\
+\
+3: Open the Application Shortcut from the Application Launcher/StartMenu/Dashboard.
 \
 \
 Join Server:
@@ -84,17 +94,6 @@ Remove All Mods:
 ![dzl](https://github.com/user-attachments/assets/24a04856-76ee-494d-a0a3-9f7116fb1f3e)
 \
 \
-\
-\
-Add DZL as a Application Entry and Open it as an Application: 
-\
-\
-1: Copy 'DZL.desktop' to /home/$USER/.local/share/applications/ in the Terminal:
-cp /home/$USER/DZL/DZL.desktop /home/$USER/.local/share/applications/DZL.desktop
-\
-\
-2: Copy the .png-icon to the '/usr/share/icons' folder in the Terminal:
-sudo cp /home/$USER/DZL-Beta-main/DZL/dzl.png /usr/share/icons/
 \
 \
 \
