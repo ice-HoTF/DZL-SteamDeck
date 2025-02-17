@@ -1,12 +1,12 @@
 # DZL - A Simple DayZ Mod Launcher for SteamDeck
 \
- **Beta released 16/02/2025**
+ **Beta released 17/02/2025**
 \
 \
 By: ice_hotf
 \
 \
-Tested with Debian 12.
+Tested with SteamDeck (Arch)
 \
 \
 \
