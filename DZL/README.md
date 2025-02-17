@@ -10,10 +10,6 @@ Tested with SteamDeck (Arch)
 \
 \
 \
-**FLATPAK STEAM NOT SUPPORTED!**
-This script only works with the official steam package: https://wiki.debian.org/Steam
-\
-\
 \
 This script will wait for user input and automatically identify missing mods, download them and launch DayZ with the mods. 
 This script will also allow you to delete mods, save shortcut script or an alias in the terminal interface.
