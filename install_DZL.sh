@@ -8,7 +8,6 @@ sudo steamos-readonly disable
 echo "Taking Ownership of the DZL Folder Contents."
 
 sudo chmod +x /home/$USER/DZL-Beta-SteamDeck-main/DZL/./*
-sudo chmod +x /home/$USER/DZL/./*
 
 ### DZL Installer ### 
 
