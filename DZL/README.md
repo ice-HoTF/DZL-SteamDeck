@@ -30,12 +30,10 @@ This script supports modded servers and vanilla servers.
 \
 2: Install DZL by running 'install_DZL.sh' in the Terminal:
 \
-\
    sh /home/$USER/DZL-Beta-SteamDeck-main/install_DZL.sh
 \
 \
 3: Run DZL from Terminal:
-\
 \
    bash /home/$USER/DZL/DZL.sh 
 \
