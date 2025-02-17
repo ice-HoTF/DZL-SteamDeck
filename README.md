@@ -1,3 +1,125 @@
+Skip to content
+Navigation Menu
+ice-HoTF
+DZL-Beta-SteamDeck
+
+Type / to search
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+DZL-Beta-SteamDeck
+/
+README.md
+in
+main
+
+Edit
+
+Preview
+Indent mode
+
+Spaces
+Indent size
+
+2
+Line wrap mode
+
+Soft wrap
+Editing README.md file contents
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
 # DZL - A Simple DayZ Mod Launcher for SteamDeck
 \
  **Beta released 17/02/2025**
@@ -86,46 +208,7 @@ Remove Favorite:
 \
 \
 ![remove_favorite](https://github.com/user-attachments/assets/30ff3c24-fd89-4919-a65e-d58349de3783)
-\
-\
-Remove From Specific Server:
-\
-\
-![remode_mods_this_server](https://github.com/user-attachments/assets/46a232fd-ed2b-4123-9df6-413d5135fd88)
-\
-\
-Remove All Mods:
-\
-\
-![remove_all_mods](https://github.com/user-attachments/assets/54d2fa7f-20fa-495e-9d99-3ac86cbec6f2)
-\
-\
-\
-\
-![dzl](https://github.com/user-attachments/assets/24a04856-76ee-494d-a0a3-9f7116fb1f3e)
-\
-\
-\
-\
-\
-\
-FAQ:
-I can't join the server:
-- Restart Steam if you can't join the server and try again. 
-- On heavily modded servers, steam once in a while glitches right after downloading the mods and. A steam restart solves it.
-\
-\
-\
-\
-Dependencies:
-\
-\
-gawk
-\
-\
-curl
-\
-\
-jq
-\
-\
+Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
+No file chosen
+Attach files by dragging & dropping, selecting or pasting them.
+Editing DZL-Beta-SteamDeck/README.md at main · ice-HoTF/DZL-Beta-SteamDeck 
