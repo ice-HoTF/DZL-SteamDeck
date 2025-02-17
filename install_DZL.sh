@@ -39,4 +39,4 @@ sudo steamos-readonly enable
 
 echo ""
 echo ""
-echo "All Done! Launch DZL by Using the Application Menu Entry or through Terminal: bash /home/$USER/DZL/DZL.sh"
+echo "Launch DZL by Using the Application Menu Entry or through Terminal: bash /home/$USER/DZL/DZL.sh"
