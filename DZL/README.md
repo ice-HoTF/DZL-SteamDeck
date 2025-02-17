@@ -33,7 +33,7 @@ This script supports modded servers and vanilla servers.
 \
 \
 2: Install DZL by running 'install_DZL.sh' in the Terminal:
-sh /home/$USER/DZL-Beta-Linux-main/install_DZL.sh
+sh /home/$USER/DZL-Beta-SteamDeck-main/DZL/install_DZL.sh
 \
 \
 3: Run DZL by Opening the Application Menu Shortcut 'DZL' or By Terminal Command: bash /home/$USER/DZL/DZL.sh
@@ -94,11 +94,11 @@ This is automatically done through the 'install_DZL.sh' script, but this is how 
 \
 \
 1: Copy 'DZL.desktop' to /home/$USER/.local/share/applications/ and in the Terminal like this:
-cp /home/$USER/DZL-Beta-Linux-main/DZL.desktop /home/$USER/.local/share/applications/DZL.desktop
+cp /home/$USER/DZL-Beta-SteamDeck-main/DZL/DZL.desktop /home/$USER/.local/share/applications/DZL.desktop
 \
 \
 2: Copy the .png-icon to the '/usr/share/icons' folder in the Terminal like this:
-sudo cp /home/$USER/DZL-Beta-Linux-main/DZL/dzl.png /usr/share/icons/
+sudo cp /home/$USER/DZL-Beta-SteamDeck-main/DZL/dzl.png /usr/share/icons/
 \
 \
 \
