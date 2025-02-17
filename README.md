@@ -74,7 +74,7 @@ Remove Favorite:
 \
 \
 \
-\
+
 # Manually moving .desktop-file and .png-files:
 \
 \
