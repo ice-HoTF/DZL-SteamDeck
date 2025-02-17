@@ -73,7 +73,7 @@ Remove Favorite:
 ![remove_favorite](https://github.com/user-attachments/assets/30ff3c24-fd89-4919-a65e-d58349de3783)
 \
 \
-# Manually moving .desktop-file and .png-files:
+# Manually Creating .desktop-file and .png-files for Application Shortcut:
 \
 (These actions are handled by 'install_DZL.sh)
 \
