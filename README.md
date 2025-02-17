@@ -38,7 +38,10 @@ This script supports modded servers and vanilla servers.
    sudo chmod +x /home/$USER/DZL/./*
 \
 \
-3: Run DZL from Terminal: bash /home/$USER/DZL/DZL.sh 
+3: Run DZL from Terminal:
+\
+\
+   bash /home/$USER/DZL/DZL.sh 
 \
 \
 4: Run DZL from Application Shortcut: 
