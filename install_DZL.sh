@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Get & set Current Directory as a Variable:
+pwd=$(pwd list)
+
 ### SteamOS Read-Only Disable ###
 sudo steamos-readonly disable
 
@@ -13,14 +16,14 @@ sudo chmod +x /home/$USER/DZL-Beta-SteamDeck-main/DZL/./*
 
 echo "Copying 'DZL Folder' to /home/$USER/"
 
-cp -R /home/$USER/DZL-Beta-SteamDeck-main/DZL/ /home/$USER/
+cp -R /$pwd/DZL/ /home/$USER/
 
 echo ""
 echo ""
 
 ### Copy DZL.desktop file to your application Directory ###
 
-cp /home/$USER/DZL-Beta-SteamDeck-main/DZL/DZL.desktop /home/$USER/.local/share/applications/DZL.desktop &
+cp /home/$USER/DZL/DZL.desktop /home/$USER/.local/share/applications/DZL.desktop &
 echo "DZL.desktop was copied to '/home/$USER/.local/share/applications/' and should be available in the application menu."
 
 echo ""
@@ -28,7 +31,7 @@ echo ""
 
 ### Copy dzl.png file to /usr/share/icons ###
 
-sudo cp /home/$USER/DZL-Beta-SteamDeck-main/DZL/dzl.png /usr/share/icons/
+sudo cp /home/$USER/DZL/dzl.png /usr/share/icons/
 echo "Application Icon copied to 'usr/share/icons'"
 
 echo ""
