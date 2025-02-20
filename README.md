@@ -25,20 +25,20 @@ This script supports modded servers and vanilla servers.
 \
 \
 \
-1: Extract 'DZL-Beta-SteamDeck-main.zip'.
+1: Extract 'DZL-Beta-SteamDeck-main.zip' and Open Terminal in the 'DZL-Beta-SteamDeck-main' Folder.
 \
 \
 2: Install DZL by running 'install_DZL.sh' in the Terminal:
 \
-   sh /home/$USER/DZL-Beta-SteamDeck-main/install_DZL.sh
+   sh install_DZL.sh
 \
 \
-3: Run DZL from Terminal:
+3: Start DZL from Terminal:
 \
    bash /home/$USER/DZL/DZL.sh 
 \
 \
-4: Run DZL from the Application Shortcut and add it to Steam as a Non-Steam game.
+4: Start DZL from the Application Shortcut and add it to Steam as a Non-Steam game.
 \
 \
 \
