@@ -1,4 +1,4 @@
-# DZL - A Simple DayZ Mod Launcher for SteamDeck
+# A Konsole-based DayZ Mod Launcher For Linux!
 \
  **Beta released 17/02/2025**
 \
