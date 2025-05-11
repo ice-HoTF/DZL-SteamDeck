@@ -149,11 +149,11 @@ startmenu "${dir_dayz}" "${dir_workshop}" || exit 1;;
 read -p $'\n
  Press Enter to Delete All DayZ Mods.' foo
 
-      	    rm -rf /home/$USER/.steam/debian-installation/steamapps/workshop/content/221100/*
+      	    rm -rf /home/$USER/.steam/steam/steamapps/workshop/content/221100/*
      	    sleep 0.1
-            rm -rf /home/$USER/.steam/debian-installation/steamapps/workshop/downloads/*
+            rm -rf /home/$USER/.steam/steam/steamapps/workshop/downloads/*
             sleep 0.1
-     	    rm -r -f /home/$USER/.steam/debian-installation/steamapps/common/DayZ/@*
+     	    rm -r -f /home/$USER/.steam/steam/steamapps/common/DayZ/@*
 
 exit 1;; 
 
@@ -273,7 +273,7 @@ check_dir() {
 
 debug "Checking directory: ${1}"
 if [ ! -d "${1}" ] ; then
-mkdir "/home/$USER/.steam/debian-installation/steamapps/workshop/content/221100"
+mkdir "/home/$USER/.steam/steam/steamapps/workshop/content/221100"
 fi
 }
 
@@ -336,12 +336,12 @@ query_server_api() {
 mainmenu(){
 
 sleep 0.25
-if [ -f "/home/$USER/.steam/debian-installation/steamapps/workshop/appworkshop_221100.acf" ] ; then
-rm /home/$USER/.steam/debian-installation/steamapps/workshop/appworkshop_221100.acf  
+if [ -f "/home/$USER/.steam/steam/steamapps/workshop/appworkshop_221100.acf" ] ; then
+rm /home/$USER/.steam/steam/steamapps/workshop/appworkshop_221100.acf  
 fi
 sleep 0.25
-if [ -f "/home/$USER/.steam/debian-installation/steamapps/workshop/appworkshop_241100.acf" ] ; then
-rm /home/$USER/.steam/debian-installation/steamapps/workshop/appworkshop_241100.acf  
+if [ -f "/home/$USER/.steam/steam/steamapps/workshop/appworkshop_241100.acf" ] ; then
+rm /home/$USER/.steam/steam/steamapps/workshop/appworkshop_241100.acf  
 fi
 sleep 0.25
 
@@ -363,8 +363,8 @@ case $number in
 	    echo -e "\n
  Checking Server Mods .." 
             sleep 0.25
-            rm -rf /home/$USER/.steam/debian-installation/steamapps/workshop/content/downloads/*
-            rm -r -f /home/$USER/.steam/debian-installation/steamapps/common/DayZ/@*
+            rm -rf /home/$USER/.steam/steam/steamapps/workshop/content/downloads/*
+            rm -r -f /home/$USER/.steam/steam/steamapps/common/DayZ/@*
             sleep 0.1;;
     [2])
     submenu2
@@ -404,17 +404,17 @@ read -p $'\n
 \n' foo
             sleep 0.25
             for modid in "${INPUT[@]}"; do  
-	    rm -rf /home/$USER/.steam/debian-installation/steamapps/workshop/content/221100/${modid}            
-	    rm -r -f /home/$USER/.steam/debian-installation/steamapps/common/DayZ/@*
+	    rm -rf /home/$USER/.steam/steam/steamapps/workshop/content/221100/${modid}            
+	    rm -r -f /home/$USER/.steam/steam/steamapps/common/DayZ/@*
 	    continue
 	   done
             sleep 0.1
-            rm -rf /home/$USER/.steam/debian-installation/steamapps/workshop/content/downloads/*
+            rm -rf /home/$USER/.steam/steam/steamapps/workshop/content/downloads/*
             sleep 0.1
-            rm -r -f /home/$USER/.steam/debian-installation/steamapps/common/DayZ/@*        
+            rm -r -f /home/$USER/.steam/steam/steamapps/common/DayZ/@*        
             sleep 0.1
-            if [ -f "/home/$USER/.steam/debian-installation/steamapps/workshop/appworkshop_221100.acf" ] ; then
-            rm /home/$USER/.steam/debian-installation/steamapps/workshop/appworkshop_221100.acf  
+            if [ -f "/home/$USER/.steam/steam/steamapps/workshop/appworkshop_221100.acf" ] ; then
+            rm /home/$USER/.steam/steam/steamapps/workshop/appworkshop_221100.acf  
             fi
 sleep 0.1;;
 
@@ -436,14 +436,14 @@ echo -e "\n
  Mods Deleted:\n ${mods2}\n From Workshop Directory: \n ${dir_workshop}"
             sleep 0.1
 	    for modid in "${INPUT[@]}"; do  
-	    rm -rf /home/$USER/.steam/debian-installation/steamapps/workshop/content/221100/${modid}
+	    rm -rf /home/$USER/.steam/steam/steamapps/workshop/content/221100/${modid}
 	    continue
 	    done
-            rm -rf /home/$USER/.steam/debian-installation/steamapps/workshop/downloads/*
+            rm -rf /home/$USER/.steam/steam/steamapps/workshop/downloads/*
             sleep 0.1
-	    rm -r -f /home/$USER/.steam/debian-installation/steamapps/common/DayZ/@*
-            if [ -f "/home/$USER/.steam/debian-installation/steamapps/workshop/appworkshop_221100.acf" ] ; then
-            rm /home/$USER/.steam/debian-installation/steamapps/workshop/appworkshop_221100.acf  
+	    rm -r -f /home/$USER/.steam/steam/steamapps/common/DayZ/@*
+            if [ -f "/home/$USER/.steam/steam/steamapps/workshop/appworkshop_221100.acf" ] ; then
+            rm /home/$USER/.steam/steam/steamapps/workshop/appworkshop_221100.acf  
             fi
 #exit;;
  
@@ -522,7 +522,7 @@ if (( missing == 1 )); then
    echo -e "\n 
  Please Wait While Steam Download The Mods."
    sleep 10
-   until [ ! -d "/home/$USER/.steam/debian-installation/steamapps/workshop/temp/221100" ] && sleep 5 && [ ! -d "/home/$USER/.steam/debian-installation/steamapps/workshop/temp/221100" ]; 
+   until [ ! -d "/home/$USER/.steam/steam/steamapps/workshop/temp/221100" ] && sleep 5 && [ ! -d "/home/$USER/.steam/steam/steamapps/workshop/temp/221100" ]; 
    do
    echo -e "\n 
  ..Downloading Mods. Please wait.."
