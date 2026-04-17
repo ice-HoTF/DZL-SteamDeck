@@ -1,21 +1,17 @@
 #!/usr/bin/env bash
 
-echo ""
-echo "Searching for Servers.. Please Wait!"
-echo ""
-#####################################################################################################################################
-### DZL ###
-#####################################################################################################################################
-
-
-startmenu() {
-
 # Temporarily changing max.map_count or else the game wont lauch at all.. (Will reset to default after the next reboot)
 echo ""
 echo "Map Count Setting:"
 sudo sysctl -w vm.max_map_count=1048576
 echo ""
 # To make it persistent: Run 'sudo su' in the Terminal and then run: echo "vm.max_map_count=1048576" >> /etc/sysctl.conf
+#####################################################################################################################################
+### DZL ###
+#####################################################################################################################################
+
+
+startmenu() {
 
 unset number
 until [[ $number == +([1-4]) ]] ; do
