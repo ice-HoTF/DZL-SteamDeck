@@ -8,15 +8,16 @@ pwd=$(pwd list)
 ### SteamOS Read-Only Disable ###
 sudo steamos-readonly disable
 
+### DZL Installer ###
+echo "Copying 'DZL Folder' to /home/$USER/"
+cp -R /$pwd/DZL/ /home/$USER/
+
+echo ""
+echo ""
 
 ### Give user ownership to DZL Files ###
 echo "Taking Ownership of the DZL Folder Contents."
-sudo chmod +x /home/$USER/DZL-Beta-SteamDeck-main/DZL/./*
-
-
-### DZL Installer ### 
-echo "Copying 'DZL Folder' to /home/$USER/"
-cp -R /$pwd/DZL/ /home/$USER/
+sudo chmod +x /home/$USER/DZL/./*
 
 echo ""
 echo ""
