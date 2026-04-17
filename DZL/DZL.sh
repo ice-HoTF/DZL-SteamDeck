@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
 
-# Temporarily changing max.map_count or else the game wont lauch at all.. (Will reset to default after the next reboot)
-echo ""
-echo "Map Count Setting:"
-sudo sysctl -w vm.max_map_count=1048576
-echo ""
+# "Map Count Setting:"
+sudo sysctl -w vm.max_map_count=1048576 > /dev/null 2>&1
+
 # To make it persistent: Run 'sudo su' in the Terminal and then run: echo "vm.max_map_count=1048576" >> /etc/sysctl.conf
 #####################################################################################################################################
 ### DZL ###
@@ -17,6 +15,9 @@ unset number
 until [[ $number == +([1-4]) ]] ; do
 
 read -s -n1 -p $'
+╔═══════════════════════════════╗\n
+║    DZL - DayZ Mod Launcher    ║\n
+╚═══════════════════════════════╝\n
  Select:\n
  1) Setup Server\n
  2) Favorites\n
